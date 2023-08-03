@@ -1,0 +1,70 @@
+/* Customization css here */
+:root {
+    --primaryColor: #4C4C6D;
+    --secondaryColor: #1B9C85;
+    --backupColor: #FFE194;
+    --white: #E8F6EF;
+  }
+  
+  #content {
+      background-color: var(--primaryColor);
+  }
+  
+  /* sidebar.blade.php */
+  #accordionSidebar {
+      background-color: var(--secondaryColor);
+  }
+  
+  /* header.blade.php */
+  #sidebarToggleTop {
+      color: white;
+  }
+  #sidebarToggleTop:hover {
+     background-color: var(--secondaryColor) !important;
+  }
+  #homeBtn i, #alertsDropdown i, #messagesDropdown i  {
+      color: white;
+      transition: all 0.3s;
+  }
+  #homeBtn i:hover, #alertsDropdown i:hover, #messagesDropdown i:hover {
+      color: rgb(127, 127, 127);
+  }
+  #notiBox, #messageBox{
+      background-color: #E8F6EF;
+  }
+  #notiBox .dropdown-header, #messageBox .dropdown-header{
+      background-color: var(--secondaryColor) !important;
+      border: none;
+      
+  }
+  .icon-circle {
+      background-color: var(--secondaryColor);
+  }
+  
+  
+  /* Dashboard */
+  .card {
+      border: none;
+  }
+  .cardIcon, .userIcon {
+      color: var(--primaryColor);
+  }
+  .card-header {
+      background-color: var(--secondaryColor);
+      color: white;
+  }
+  .card-body, .userDropdown{
+      background-color: var(--white);
+  }
+  
+  .bannerBtn, .categoryBtn, .productBtn {
+      background-color: white;
+      color: var(--secondaryColor);
+  }
+  
+  .sticky-footer {
+      background-color: var(--primaryColor);
+  }
+  
+  
+  

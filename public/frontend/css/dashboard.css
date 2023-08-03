@@ -1,0 +1,58 @@
+/* Customization css here */
+:root {
+    --primaryColor: #4C4C6D;
+    --secondaryColor: #1B9C85;
+    --backupColor: #FFE194;
+    --white: #E8F6EF;
+  }
+  
+  #content {
+      background-color: var(--primaryColor);
+  }
+  
+  /* sidebar.blade.php */
+  #accordionSidebar {
+      background-color: var(--secondaryColor);
+  }
+  
+  /* header.blade.php */
+  #sidebarToggleTop {
+      color: white;
+  }
+  #sidebarToggleTop:hover {
+     background-color: var(--secondaryColor) !important;
+  }
+  #homeBtn i{
+      color: white;
+      transition: all 0.3s;
+  }
+  #homeBtn i:hover {
+      color: rgb(127, 127, 127);
+  }
+  .searchBtn {
+    background-color: var(--secondaryColor)!important;
+    color: white !important;
+  }
+  .searchBtn:hover {
+    background-color: var(--backupColor) !important;
+    color: black !important;
+  }
+
+  .userIcon {
+    color: var(--primaryColor);
+  }
+  
+  .card {
+    border: none !important;
+    }
+  .card-header {
+    background-color: var(--secondaryColor) !important;
+    color: white;
+}
+  
+  .sticky-footer {
+      background-color: var(--primaryColor);
+  }
+  
+  
+      
